@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RotiseriaDesktop
 {
-    public partial class Form1 : Form
+    public partial class FrmMenuPrincipal : Form
     {
-        public Form1()
+        public FrmMenuPrincipal()
         {
             InitializeComponent();
         }
