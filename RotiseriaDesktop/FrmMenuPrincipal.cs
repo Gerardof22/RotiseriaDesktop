@@ -16,5 +16,17 @@ namespace RotiseriaDesktop
         {
             InitializeComponent();
         }
+
+        private void nuevaCategoríaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNuevaCategoria frmNuevaCategoria = new frmNuevaCategoria();
+            frmNuevaCategoria.ShowDialog();
+        }
+
+        private void gestiónCategoríaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmGestionCategoria frmGestionCategoria = new frmGestionCategoria();
+            frmGestionCategoria.ShowDialog();
+        }
     }
 }
